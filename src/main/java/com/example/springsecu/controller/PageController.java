@@ -17,6 +17,7 @@ public class PageController {
     private PasswordEncoder passwordEncoder;
 
 
+
     @GetMapping("/home")
     public String getHome(){
         return "home";
